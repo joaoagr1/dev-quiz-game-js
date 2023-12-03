@@ -2,6 +2,10 @@
 
 This repository houses a Quiz Certification Project, developed for a college assignment. The project is a quiz game that covers topics taught during the semester. The goal is to provide users with a certification upon successful completion of the quiz.
 
+![Página de Login](print1.png)
+![Página de Login](print2.png)
+
+
 ## Features
 
 - Interactive Quiz Interface

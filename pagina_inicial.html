@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz Programação</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="">
+        <h1>Masmorra Reign Horror (RH)</h1>
+      </header>
+      <main>
+        <!-- QUIZZ CONTAINER -->
+        <div id="quizz-container">
+          <p id="question">
+            <span id="question-number"></span> &#8212;
+            <span id="question-text"></span>
+          </p>
+          <div id="answers-box">
+            <button><span class="btn-letter"></span> <span class="question-answer"></span></button>
+            <button><span class="btn-letter"></span> <span class="question-answer"></span></button>
+            <button><span class="btn-letter"></span> <span class="question-answer"></span></button>
+            <button><span class="btn-letter"></span> <span class="question-answer"></span></button>
+          </div>
+        </div>
+
+        <!-- SCORE BOARD -->
+        <div id="score-container" class="hide">
+          <h2>Parabéns - Certificado de acerto:</h2>
+          <p id="display-score"><span>90</span>%</p>
+          <p>
+            Você acertou <span id="correct-answers">0</span> de
+            <span id="questions-qty">10</span> perguntas e passou pelos desafios da masmorra.
+          </p>
+          <button id="restart">Jogar Novamente</button>
+        </div>
+
+        <!-- TEMPLATE RESPOSTA -->
+        <button class="answer-template hide">
+          <span class="btn-letter"></span> <span class="question-answer"></span>
+        </button>
+      </main>
+      <footer>
+        <p>
+          <strong></strong>
+          <a href="https://github.com/lucianesantcs/"><strong>AEP jogo 2° bimestre</strong>
+          
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
